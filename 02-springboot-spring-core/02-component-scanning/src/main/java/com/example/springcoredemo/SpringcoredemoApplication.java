@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // scans the util package as well as the springcoredemo package
 @SpringBootApplication(
         scanBasePackages = {"com.example.springcoredemo",
-                            "com.example.util"}
+                "com.example.util"}
 )
 public class SpringcoredemoApplication {
 
