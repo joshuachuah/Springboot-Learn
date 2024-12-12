@@ -15,7 +15,7 @@ public class StudentRestController {
 
     private List<Student> students;
 
-    // define @PostConstruct to load the student data ... only onece
+    // define @PostConstruct to load the student data ... only once
     @PostConstruct
     public void loadData() {
 
