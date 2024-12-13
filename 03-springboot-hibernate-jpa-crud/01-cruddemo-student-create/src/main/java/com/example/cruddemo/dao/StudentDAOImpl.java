@@ -29,34 +29,5 @@ public class StudentDAOImpl implements StudentDAO {
         entityManager.persist(theStudent);
     }
 
-    @Override
-    public Student findById(Integer id) {
-        return null;
-    }
-
-    @Override
-    public List<Student> findAll() {
-        return List.of();
-    }
-
-    @Override
-    public List<Student> findByLastName(String lastName) {
-        return List.of();
-    }
-
-    @Override
-    public void update(Student student) {
-
-    }
-
-    @Override
-    public void delete(Integer id) {
-
-    }
-
-    @Override
-    public int deleteAll() {
-        return 0;
-    }
 
 }
