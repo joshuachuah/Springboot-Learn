@@ -1,8 +1,8 @@
 package com.example.demo.rest;
 
 
-import com.example.demo.dao.EmployeeDAO;
 import com.example.demo.entity.Employee;
+import com.example.demo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,11 +15,10 @@ import java.util.List;
 @RequestMapping("/api")
 public class EmployeeRestController {
 
-    private EmployeeDAO employeeService;
-
+    private EmployeeService employeeService;
     // inject employee dao
     @Autowired
-    public EmployeeRestController(EmployeeDAO theEmployeeService) {
+    public EmployeeRestController(EmployeeService theEmployeeService) {
         employeeService = theEmployeeService;
     }
 
