@@ -1,7 +1,7 @@
-package com.example.demo.rest;
+package com.example.thymeleafdemo.rest;
 
-import com.example.demo.entity.Employee;
-import com.example.demo.service.EmployeeService;
+import com.example.thymeleafdemo.entity.Employee;
+import com.example.thymeleafdemo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
