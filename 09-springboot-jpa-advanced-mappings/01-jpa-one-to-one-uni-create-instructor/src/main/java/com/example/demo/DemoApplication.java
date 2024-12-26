@@ -24,6 +24,7 @@ public class DemoApplication {
 
     private void createInstructor(AppDAO appDAO) {
 
+        /*
         // create the instructor
         Instructor tempInstructor =
                 new Instructor("Joshua", "Chuah", "joshuachuah@hello.com");
@@ -33,6 +34,18 @@ public class DemoApplication {
                 new InstructorDetail(
                         "http://www.lesserafim.com/youtube",
                         "Learning new technologies");
+
+         */
+
+        // create the instructor
+        Instructor tempInstructor =
+                new Instructor("Madhu", "Patel", "madhu@hello.com");
+
+        // create instructor detail
+        InstructorDetail tempInstructorDetail =
+                new InstructorDetail(
+                        "http://www.lesserafim.com/youtube",
+                        "Guitar");
 
         // associate the objects
         tempInstructor.setInstructorDetail(tempInstructorDetail);
