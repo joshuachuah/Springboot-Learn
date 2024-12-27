@@ -25,6 +25,7 @@ public class DemoApplication {
             // findCourseAndStudents(appDAO);
             // findStudentAndCourses(appDAO);
             // addMoreCoursesForStudent(appDAO);
+            deleteCourse(appDAO);
         };
 
     }
